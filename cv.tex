@@ -1,6 +1,8 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
 \addbibresource{bibliography.bib}
+\usepackage{fontspec}
+\usepackage{fontawesome}
 
 \begin{document}
 \header{Raul}{ Cioldin}
@@ -10,40 +12,53 @@
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{About}        
-    \href{mailto:raulvc@gmail.com}{raulvc@gmail.com}
-    \href{https://github.com/raulvc}{github.com/raulvc}
-    \href{https://www.facebook.com/raul.cioldin}{fb://raul.cioldin}
+    \href{mailto:raulvc@gmail.com}{raulvc@gmail.com{\color{gray} \faEnvelope}}
+    \href{https://github.com/raulvc}{raulvc{ \faGithub}}
+    \href{https://www.linkedin.com/in/raul-cioldin/}{raul-cioldin{ \color{blue!20!black} \faLinkedin}}
   \section{Bachelor's degree in}
 	Computer Science
 	UFSCar
   \section{Languages}
     bilingual portuguese/english
   \section{Programming}
-    {\color{red} $\varheartsuit$} Python
+  	{\color{red} $\varheartsuit$} Go
+    Python
     Ruby
 	Java, C, C++
 	Bash
 \end{aside}
 
-\section{Who am I}
+\section{Intro}
 
-I'm a generalist software developer and also consider myself an enthusiastic, strong supporter of open source.
+I'm a generalist software developer and a strong supporter of open source. 
 
-I have solid experience dealing with solutions based on the \textbf{hadoop} ecosystem and had my share of developing complex parsers in \textbf{C}. 
+My main career goals are to learn new things (ideally bleeding edge tech) and to improve myself.
+
+Recently, I'm focusing on developing (and designing/planning) highly performant \textbf{Go} apps in a microservices, event-driven architecture.
+
+From my past, I have solid experience with \textbf{hadoop} based solutions (the whole ecosystem) and had my share of developing complex parsers in \textbf{C}. 
 
 As for most automation tasks, I'm a \textbf{python} adept (except when a problem can be solved by a \textbf{bash} oneliner).
 
-A few tools I've used for developing REST API's: \textbf{Dropwizard} (Java), \textbf{JAX-RS} standard JavaEE implementation, \textbf{Flask} (Python), \textbf{Rails} (Ruby)
-
 \section{Some of my interests}
 
-Operational systems, distributed computing, low-level network development, machine learning, data mining, web development
+Rust, operational systems, distributed computing, low-level network development, web development
 
 \section{Experience}
 
 \begin{entrylist}
   \entry
-    {jul/2017\\present}
+    {aug/2019\\present}
+    {iFood, São Carlos}
+    {Backend Developer}
+    {\emph{Backend software developer with a strong focus in large scale API's and async messaging
+\\
+	- Go and Kotlin (Spring and Ktor) specialization.\\
+    - Huge dive into amazon products: from messaging to lambdas, terraform provisioning and hosted opensource products\\
+    - Got intoxicated (in a good way) by a lot of best practices gurus and "RFC culture"\\
+    - Mentoring/training, interviewing and leadership experience}}
+  \entry
+    {jul/2017\\aug/2019}
     {WebRadar, RJ}
     {Backend Software Developer (Remote)}
     {\emph{Software developer and DevOps in a BigData project.\\
@@ -59,24 +74,10 @@ Operational systems, distributed computing, low-level network development, machi
     - Parsers in C\\
     - Provisioning with Chef and Docker}}
   \entry
-    {jan/2015\\feb/2016}
-    {Bluedotsoft, São Carlos}
-    {Internship.}
-    {\emph{Web Developer.\\
-    - Java development (JavaEE, JSF)}}
-  \entry
-    {aug/2010\\feb/2011}
-    {CCE - UFSCar, São Carlos}
-    {Research Scholarship.}
-    {\emph{Web Developer in open source project \href{http://www.saci-devel.ufscar.br}{SACI}.\\
-    - Java development (JavaEE, JSP)}}
-  \entry
-    {jan/2008\\aug/2008}
-    {MStech, Bauru}
-    {Internship.}
-    {\emph{Linux desktop developer.\\
-    - Python development (GTK+) \\
-    - Worked in a VNC inspired virtual classroom application}}
+	{}
+	{}
+	{}
+	{\emph{(see my \href{https://www.linkedin.com/in/raul-cioldin/}{linkedin} for more!)}}
 \end{entrylist}
 
 
